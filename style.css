@@ -1,0 +1,35 @@
+
+section {
+    background-color: grey;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 3000px;
+}
+
+.container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+dd {
+    margin: 0;
+}
+
+@media screen and (max-width: 796px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+article {
+    width: 33%;
+}
+
+ul, ol, dl {
+    margin: 0;
+    padding: 10px 20px;
+}
